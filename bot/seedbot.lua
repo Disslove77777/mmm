@@ -209,11 +209,11 @@ function create_config( )
     "chat",
     "robot",
     "auto_leave",
+    "banhammer",
     "plugins",
     "inrealm",
     "ingroup",
     "inpm",
-    "banhammer",
     "stats",
     "anti_spam",
     "owners",
@@ -226,7 +226,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {146064800},--Sudo users
+    sudo_users = {146064800,},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
